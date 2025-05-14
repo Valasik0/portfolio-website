@@ -5,7 +5,7 @@ import Contact from './Contact';
 
 function App() {
   return (
-    <div style={{ backgroundColor: '#121212', color: '#E1E1E1', minHeight: '100vh' }}>
+    <div>
       <Navbar />
       <Home />
       <About />

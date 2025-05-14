@@ -1,0 +1,23 @@
+#navbar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    color: #BB86FC;
+    padding: 1rem;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar a {
+    margin: 0 1rem;
+    color: #BB86FC;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#navbar a:hover {
+    color: #E1E1E1;
+}
