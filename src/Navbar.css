@@ -3,7 +3,7 @@
     position: fixed;
     width: 100%;
     z-index: 1000;
-    color: #BB86FC;
+    color: #FF6F61;
     padding: 1rem;
     z-index: 1000;
     display: flex;
@@ -12,10 +12,11 @@
 
 #navbar a {
     margin: 0 1rem;
-    color: #BB86FC;
+    color: #FF6F61;
     text-decoration: none;
-    font-weight: bold;
     transition: color 0.3s ease;
+    font-size: 1.2rem;
+    float: right;
 }
 
 #navbar a:hover {
