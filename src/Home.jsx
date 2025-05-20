@@ -1,5 +1,4 @@
 import './Home.css';
-import meImage from '../public/me.jpg';
 
 function Home() {
   return (
