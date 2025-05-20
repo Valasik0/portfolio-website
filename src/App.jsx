@@ -5,11 +5,19 @@ import Contact from './Contact';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Contact />
+    <div className="root-layout">
+      <div className="side-container left-container">
+
+      </div>
+      <div className="main-container">
+        <Navbar />
+        <Home />
+        <About />
+        <Contact />
+      </div>
+      <div className="side-container right-container">
+        
+      </div>
     </div>
   );
 }

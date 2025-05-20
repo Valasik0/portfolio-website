@@ -1,0 +1,32 @@
+.socials-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 4rem;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.socials-bar a {
+  color: #E1E1E1;
+  margin: 0.7rem 0;
+  font-size: 1.7rem;
+  transition: color 0.2s;
+}
+
+.socials-bar a:hover {
+  color: #BB86FC;
+}
+
+.socials-bar-line {
+  width: 2px;
+  height: 80px;
+  background: #BB86FC;
+  margin-top: 1.5rem;
+  border-radius: 1px;
+}
