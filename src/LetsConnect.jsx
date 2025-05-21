@@ -1,4 +1,4 @@
-import './letsconnect.css';
+import './LetsConnect.css';
 import './ContactForm.css';
 
 function LetsConnect() {
