@@ -2,8 +2,11 @@
     color: #FF6F61;
     z-index: 1000;
     display: flex;
-    margin-left: auto;
+    position: sticky;
+    top: 0;
+    margin-left:auto;
     margin-right: 0;
+    padding: 2rem 2rem 2rem 1rem; 
 }
 
 #navbar a {
@@ -11,10 +14,11 @@
     color: #FF6F61;
     text-decoration: none;
     transition: color 0.3s ease;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     float: right;
 }
 
-#navbar a:hover {
+#navbar a:hover,
+#navbar a.active {
     color: #E1E1E1;
 }
