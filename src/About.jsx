@@ -1,12 +1,11 @@
-import './About.css';
+import './styles/About.css';
 
 function About() {
   return (
-    <div id="about">
+    <section id="about">
       <h1>About Me</h1>
       <p>This is the about section.</p>
-    
-    </div>
+    </section>
   );
 }
 
