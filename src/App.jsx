@@ -7,7 +7,6 @@ import './App.css';
 function App() {
   return (
     <div id="root-layout">
-      <div className="side-container left-container"></div>
       <div className="main-container">
         <Navbar />
         <div className="content-container">
@@ -16,7 +15,6 @@ function App() {
           <Contact />
         </div>
       </div>
-      <div className="side-container right-container"></div>
     </div>
   );
 }
