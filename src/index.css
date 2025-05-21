@@ -25,3 +25,11 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  background: #19193E;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.87);
+}
+
