@@ -1,11 +1,12 @@
-import './Home.css';
+import './styles/Home.css';
 
 function Home() {
   return (
-    <div id="home">
+    <section id="home">
       <h3>WELCOME TO MY WEBSITE</h3>
-      <h1>I'm <span style={{color: '#FF6F61'}}>Václav Vyrobík</span> a Software Developer.</h1>
-    </div>
+      <h1>I'm <span style={{ color: '#FF6F61' }}>Václav Vyrobík</span> a Software Developer.</h1>
+      {/* Add your image and design elements here using CSS */}
+    </section>
   );
 }
 

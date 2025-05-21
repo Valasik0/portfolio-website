@@ -1,12 +1,13 @@
-import './Navbar.css';
+import './styles/Navbar.css';
 
 function Navbar() {
   return (
-    <header id="navbar">
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
+    <header>
+      <nav id="navbar">
+        <a href="#letsconnect">Let's connect</a>
         <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#home">Home</a>
       </nav>
     </header>
   );
